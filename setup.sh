@@ -21,8 +21,7 @@ cp .tmux.conf.local ~/.tmux/.tmux.conf.local
 echo "installing nvm"
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 source ~/.bash_profile
-nvm install 9
-nvm install 10
+nvm install 16
 #get bat
 brew install bat
 #get gzg
